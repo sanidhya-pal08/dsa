@@ -54,7 +54,7 @@ int reqd_function(int arr[],int num_books,int num_students){
     return ans;
 }
 int main(){
-    int arr[]={10,12,11,13,8,11,12,27};
-    int asn=reqd_function(arr,8,7);
+    int arr[]={5, 10, 30, 20, 15};
+    int asn=reqd_function(arr,5,3);
     cout<<asn;
 }

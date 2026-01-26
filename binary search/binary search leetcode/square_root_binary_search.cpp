@@ -42,8 +42,8 @@ int find_index(int num){
     return ans;
 }
 int main(){
-    int integer = find_index(37);
-    cout<<decimal_part(integer,37,3);
+    int integer = find_index(12);
+    cout<<decimal_part(integer,12,5);
 
     
 }
